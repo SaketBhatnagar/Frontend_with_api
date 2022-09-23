@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.para {
+  background-color: red;
+  height: 300px;
+}
+.root_div {
+  /* margin-top: 20px; */
+  background-color: rgb(1, 3, 55);
+  /* height: 200px; */
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  /* border: 2px solid rgba(0, 229, 255, 0.324); */
+  /* height: 300px; */
+  padding: 20px 10px;
+  color: white;
+  border-bottom: 4px solid rgba(2, 220, 240, 0.747);
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.359);
+  flex-grow: 1;
+  flex-shrink: 1;
+  transition: all 0.5s;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 0px 4px 1px rgba(2, 220, 240, 0.747);
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  background-image: linear-gradient(rgb(135, 139, 235), rgb(1, 3, 55));
+}
+
+.card h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.info {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(23, 235, 250);
+  width: 100%;
+  display: block;
+  /* background-color: aliceblue; */
+  text-align: center;
+  font-size: 27px;
+  padding: 5px 0px;
+  margin-top: 10px;
+  border: 2px solid transparent;
+}
+
+.info a:hover {
+  /* color: white; */
+  border: 2px solid rgb(23, 235, 250);
+}
